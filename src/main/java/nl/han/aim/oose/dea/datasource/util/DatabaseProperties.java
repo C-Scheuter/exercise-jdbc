@@ -20,4 +20,5 @@ public class DatabaseProperties {
     {
         return properties.getProperty("connectionString");
     }
+    public String driver(){ return properties.getProperty("driver");}
 }
